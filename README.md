@@ -1,0 +1,3 @@
+# Project Introduction
+
+This project is centered around practicing HTML to build a well-structured and semantic web page. By the end of this project, you will have demonstrated your skills in creating and organizing HTML elements, using appropriate tags, and ensuring accessibility and SEO best practices. This project will highlight your ability to construct a functional and user-friendly web page using fundamental HTML techniques.
