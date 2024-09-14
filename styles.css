@@ -26,14 +26,11 @@ h1, h2 {
 
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
-
-p {
+p, ul, ol {
     line-height: 2rem;
-}
-
-ul, ol {
-    line-height: 2rem;
+    text-align: justify;
 }
 
 .recipe-container {
@@ -71,6 +68,41 @@ ul, ol {
     margin: 0 auto;
 }
 
+.description-container {
+    background-color: var(--card-bg-color);
+    border: 5px double var(--main-font-color);
+    border-radius: 5px;
+}
+
+.ingredients-container {
+    background-image: url('./images/paper.webp');
+    border-radius: 5px;
+}
+.ingredients-container ul {
+    padding: 50px;
+}
+.ingredients-container li {
+    margin-bottom: 20px;
+}
+.ingredients-container h2 {
+    padding: 10px;
+}
+
+.steps-container {
+    background-image: url('./images/paper.webp');
+    border-radius: 5px;
+}
+
+.steps-container ol {
+    padding: 50px;
+}
+.steps-container li {
+    margin-bottom: 20px;
+}
+.steps-container h2 {
+    padding: 10px;
+}
+
 .back-button {
     display: block;
     margin: 30px auto;
@@ -79,6 +111,7 @@ ul, ol {
     text-align: center;
     text-decoration: none;
     width: 100px;
+    border: 3px solid var(--main-font-color);
     border-radius: 5px;
 }
 
